@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .banner-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .banner-item {
+    padding: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-item:last-child {
+    border-bottom: none;
+  }
+  
+  .banner-link {
+    color: #007bff;
+    flex-grow: 1; 
+    text-align: left; 
+  }
+  
+  .banner-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  .dashboard-link {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .dashboard-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .dashboard-link a:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
